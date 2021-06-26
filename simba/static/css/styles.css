@@ -232,12 +232,19 @@ body{
 }
 
 .club{
+<<<<<<< HEAD
   display: flex;
   border-top: solid 5px black;
   margin-left:100px;
   margin-right: 100px;
 }
 
+=======
+  border-top: black;
+  padding-top: 50px;
+  display: flex;
+}
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
 .club_left{
   width:25%;
 }
@@ -253,6 +260,10 @@ body{
 }
 .club_activity{
   padding: 5% 10%;
+<<<<<<< HEAD
+=======
+  border: 1px solid black;
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
   border-bottom-width: 0;
 }
 .club_activity_head_2{
@@ -336,11 +347,14 @@ body{
 .faq__content{
   font-family: 'NanumBarunGothic';
 }
+<<<<<<< HEAD
 
 .faq__content a:visited{
   color:black;
 }
 
+=======
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
 summary {
   font-family: 'Do Hyeon', sans-serif;
   font-size: 1.25rem;
@@ -411,6 +425,7 @@ ol, ul {
 
 
 #club_name {
+<<<<<<< HEAD
   color: black;
   font-family:'Do Hyeon', sans-serif;
   font-weight: 700;
@@ -420,6 +435,16 @@ ol, ul {
   line-height: 1.3;
  }
 
+=======
+  color: #3d4449;
+  font-family:'Do Hyeon', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 1em 0; 
+  font-size: 4em;
+  margin: 0 0 0.5em 0;
+  line-height: 1.3; }
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
 
 
 /* Main */
@@ -434,12 +459,19 @@ ol, ul {
 
 /* Header */
 #header {
+<<<<<<< HEAD
   font-family: 'Do Hyeon', sans-serif;
+=======
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+<<<<<<< HEAD
   border-bottom: solid 5px black;
+=======
+  border-bottom: solid 5px #f56a6a;
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
   padding-top : 30px;
   position: relative; }
   #header > * {
@@ -459,7 +491,11 @@ ol, ul {
 }
 
 .image_main{
+<<<<<<< HEAD
   margin-top: 30px;
+=======
+  margin-top: 10px;
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
   text-align: center;
 }
 
@@ -467,6 +503,10 @@ ol, ul {
   width: 800px;
   padding-right: 25%;
   padding-left: 25%;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
 }
 
 p{
@@ -496,6 +536,13 @@ ul.links {
   margin-top: 50px;
 }
 
+<<<<<<< HEAD
+=======
+.club{
+  border: 3px solid black;
+}
+
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
 .holy{
   display: flex;
   justify-content: center;
@@ -517,6 +564,7 @@ ul.links {
 
 #ping{
   font-size: 20px;
+<<<<<<< HEAD
 }
 
 #header a{
@@ -543,3 +591,6 @@ ul.links {
 .authentication a{
   color:black;
 }
+=======
+}
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9

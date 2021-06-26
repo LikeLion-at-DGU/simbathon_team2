@@ -81,7 +81,11 @@ def cafein_delete(request,id):
 
 # dna
 def dna(request):
+<<<<<<< HEAD
     posts = dna_Post.objects.all().order_by('-date')
+=======
+    posts = dna_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/dna.html',{'posts':posts})
 
 def dna_detail(request,id):
@@ -122,7 +126,11 @@ def dna_delete(request,id):
 
 # dussa
 def dussa(request):
+<<<<<<< HEAD
     posts = dussa_Post.objects.all().order_by('-date')
+=======
+    posts = dussa_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/dussa.html',{'posts':posts})
 
 def dussa_detail(request,id):
@@ -163,7 +171,11 @@ def dussa_delete(request,id):
 
 # kcc
 def kcc(request):
+<<<<<<< HEAD
     posts = kcc_Post.objects.all().order_by('-date')
+=======
+    posts = kcc_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/kcc.html',{'posts':posts})
 
 def kcc_detail(request,id):
@@ -204,7 +216,11 @@ def kcc_delete(request,id):
 
 # mecs
 def mecs(request):
+<<<<<<< HEAD
     posts = mecs_Post.objects.all().order_by('-date')
+=======
+    posts = mecs_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/mecs.html',{'posts':posts})
 
 def mecs_detail(request,id):
@@ -245,7 +261,11 @@ def mecs_delete(request,id):
 
 # nsa
 def nsa(request):
+<<<<<<< HEAD
     posts = nsa_Post.objects.all().order_by('-date')
+=======
+    posts = nsa_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/nsa.html',{'posts':posts})
 
 def nsa_detail(request,id):
@@ -286,7 +306,11 @@ def nsa_delete(request,id):
 
 # marx
 def marx(request):
+<<<<<<< HEAD
     posts = marx_Post.objects.all().order_by('-date')
+=======
+    posts = marx_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/marx.html',{'posts':posts})
 
 def marx_detail(request,id):
@@ -825,7 +849,11 @@ def korean_delete(request,id):
 # 사회분과
 # kusa
 def kusa(request):
+<<<<<<< HEAD
     posts = kusa_Post.objects.all().order_by('-date')
+=======
+    posts = kusa_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/kusa.html',{'posts':posts})
 
 def kusa_detail(request,id):
@@ -866,7 +894,11 @@ def kusa_delete(request,id):
 
 # rich
 def rich(request):
+<<<<<<< HEAD
     posts = rich_Post.objects.all().order_by('-date')
+=======
+    posts = rich_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/rich.html',{'posts':posts})
 
 def rich_detail(request,id):
@@ -907,7 +939,11 @@ def rich_delete(request,id):
 
 # unsa
 def unsa(request):
+<<<<<<< HEAD
     posts = unsa_Post.objects.all().order_by('-date')
+=======
+    posts = unsa_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/unsa.html',{'posts':posts})
 
 def unsa_detail(request,id):
@@ -948,7 +984,11 @@ def unsa_delete(request,id):
 
 # frontier
 def frontier(request):
+<<<<<<< HEAD
     posts = frontier_Post.objects.all().order_by('-date')
+=======
+    posts = frontier_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/frontier.html',{'posts':posts})
 
 def frontier_detail(request,id):
@@ -989,7 +1029,11 @@ def frontier_delete(request,id):
 
 # buddha
 def buddha(request):
+<<<<<<< HEAD
     posts = buddha_Post.objects.all().order_by('-date')
+=======
+    posts = buddha_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/buddha.html',{'posts':posts})
 
 def buddha_detail(request,id):
@@ -1792,7 +1836,11 @@ def rush_delete(request,id):
 # 신규분과
 # elephente
 def elephente(request):
+<<<<<<< HEAD
     posts = elephente_Post.objects.all().order_by('-date')
+=======
+    posts = elephente_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/elephente.html',{'posts':posts})
 
 def elephente_detail(request,id):
@@ -1833,7 +1881,11 @@ def elephente_delete(request,id):
 
 # doomchit
 def doomchit(request):
+<<<<<<< HEAD
     posts = doomchit_Post.objects.all().order_by('-date')
+=======
+    posts = doomchit_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/doomchit.html',{'posts':posts})
 
 def doomchit_detail(request,id):
@@ -1915,7 +1967,11 @@ def likelion_delete(request,id):
 
 # enactus
 def enactus(request):
+<<<<<<< HEAD
     posts = enactus_Post.objects.all().order_by('-date')
+=======
+    posts = enactus_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/enactus.html',{'posts':posts})
 
 def enactus_detail(request,id):
@@ -1956,7 +2012,11 @@ def enactus_delete(request,id):
 
 # jam
 def jam(request):
+<<<<<<< HEAD
     posts = jam_Post.objects.all().order_by('-date')
+=======
+    posts = jam_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/jam.html',{'posts':posts})
 
 def jam_detail(request,id):
@@ -1997,7 +2057,11 @@ def jam_delete(request,id):
 
 # qud
 def qud(request):
+<<<<<<< HEAD
     posts = qud_Post.objects.all().order_by('-date')
+=======
+    posts = qud_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/qud.html',{'posts':posts})
 
 def qud_detail(request,id):
@@ -2039,7 +2103,11 @@ def qud_delete(request,id):
 # 체육분과
 # dust
 def dust(request):
+<<<<<<< HEAD
     posts = dust_Post.objects.all().order_by('-date')
+=======
+    posts = dust_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/dust.html',{'posts':posts})
 
 def dust_detail(request,id):
@@ -2081,7 +2149,11 @@ def dust_delete(request,id):
 
 # cave
 def cave(request):
+<<<<<<< HEAD
     posts = cave_Post.objects.all().order_by('-date')
+=======
+    posts = cave_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/cave.html',{'posts':posts})
 
 def cave_detail(request,id):
@@ -2123,7 +2195,11 @@ def cave_delete(request,id):
 
 # action
 def action(request):
+<<<<<<< HEAD
     posts = action_Post.objects.all().order_by('-date')
+=======
+    posts = action_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/action.html',{'posts':posts})
 
 def action_detail(request,id):
@@ -2165,7 +2241,11 @@ def action_delete(request,id):
 
 # wind
 def wind(request):
+<<<<<<< HEAD
     posts = wind_Post.objects.all().order_by('-date')
+=======
+    posts = wind_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/wind.html',{'posts':posts})
 
 def wind_detail(request,id):
@@ -2207,7 +2287,11 @@ def wind_delete(request,id):
 
 # mountain
 def mountain(request):
+<<<<<<< HEAD
     posts = mountain_Post.objects.all().order_by('-date')
+=======
+    posts = mountain_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/mountain.html',{'posts':posts})
 
 def mountain_detail(request,id):
@@ -2249,7 +2333,11 @@ def mountain_delete(request,id):
 
 # water
 def water(request):
+<<<<<<< HEAD
     posts = water_Post.objects.all().order_by('-date')
+=======
+    posts = water_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/water.html',{'posts':posts})
 
 def water_detail(request,id):
@@ -2291,7 +2379,11 @@ def water_delete(request,id):
 
 # courtist
 def courtist(request):
+<<<<<<< HEAD
     posts = courtist_Post.objects.all().order_by('-date')
+=======
+    posts = courtist_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/courtist.html',{'posts':posts})
 
 def courtist_detail(request,id):
@@ -2333,7 +2425,11 @@ def courtist_delete(request,id):
 
 # dutc
 def dutc(request):
+<<<<<<< HEAD
     posts = dutc_Post.objects.all().order_by('-date')
+=======
+    posts = dutc_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/dutc.html',{'posts':posts})
 
 def dutc_detail(request,id):
@@ -2375,7 +2471,11 @@ def dutc_delete(request,id):
 
 # fctoto
 def fctoto(request):
+<<<<<<< HEAD
     posts = fctoto_Post.objects.all().order_by('-date')
+=======
+    posts = fctoto_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/fctoto.html',{'posts':posts})
 
 def fctoto_detail(request,id):
@@ -2416,7 +2516,11 @@ def fctoto_delete(request,id):
 
 # lae
 def lae(request):
+<<<<<<< HEAD
     posts = lae_Post.objects.all().order_by('-date')
+=======
+    posts = lae_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/lae.html',{'posts':posts})
 
 def lae_detail(request,id):
@@ -2457,7 +2561,11 @@ def lae_delete(request,id):
 
 # kendo
 def kendo(request):
+<<<<<<< HEAD
     posts = kendo_Post.objects.all().order_by('-date')
+=======
+    posts = kendo_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/kendo.html',{'posts':posts})
 
 def kendo_detail(request,id):
@@ -2498,7 +2606,11 @@ def kendo_delete(request,id):
 
 # baduk
 def baduk(request):
+<<<<<<< HEAD
     posts = baduk_Post.objects.all().order_by('-date')
+=======
+    posts = baduk_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/baduk.html',{'posts':posts})
 
 def baduk_detail(request,id):
@@ -2539,7 +2651,11 @@ def baduk_delete(request,id):
 
 # arrow
 def arrow(request):
+<<<<<<< HEAD
     posts = arrow_Post.objects.all().order_by('-date')
+=======
+    posts = arrow_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/arrow.html',{'posts':posts})
 
 def arrow_detail(request,id):
@@ -2580,7 +2696,11 @@ def arrow_delete(request,id):
 
 # taekwondo
 def taekwondo(request):
+<<<<<<< HEAD
     posts = taekwondo_Post.objects.all().order_by('-date')
+=======
+    posts = taekwondo_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/taekwondo.html',{'posts':posts})
 
 def taekwondo_detail(request,id):
@@ -2621,7 +2741,11 @@ def taekwondo_delete(request,id):
 
 # tuskers
 def tuskers(request):
+<<<<<<< HEAD
     posts = tuskers_Post.objects.all().order_by('-date')
+=======
+    posts = tuskers_Post.objects.all()
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     return render(request,'club/tuskers.html',{'posts':posts})
 
 def tuskers_detail(request,id):

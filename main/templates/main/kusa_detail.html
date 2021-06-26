@@ -18,16 +18,22 @@
             <h3>{{post.body}}</h3>
         </div>
     </div>
+<<<<<<< HEAD
     {% if user.is_authenticated %}
+=======
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
     <div class = 'post detail_post'>
         <a class = 'post_a' href = "{% url 'main:kusa_edit' post.id%}">수정하기</a>
         <a class = 'post_a' href = "{% url 'main:kusa_delete' post.id%}">삭제하기</a>
         <a class = 'post_a' href = "{% url 'main:kusa'%}">돌아가기</a>
     </div>
+<<<<<<< HEAD
     {% else %} 
     <div class = 'post detail_post'>
         <a class = 'post_a' href = "{% url 'main:kusa'%}">돌아가기</a>
     </div>
     {% endif %}
+=======
+>>>>>>> 08bde414e4ff1acf4b959771331e2a73bdec5bf9
 </div>
 {% endblock %}
